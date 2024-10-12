@@ -10,7 +10,7 @@ public class LeverPuzzle : MonoBehaviour
     public float stayUpTime = 3f;  // Время, на которое плита останется наверху
     private bool playerInRange = false;  // Проверка, находится ли игрок рядом с рычагом
     private bool isMoving = false;  // Плита в движении?
-    private bool isPlateUp = false;  // Плита поднята?
+
 
     void Update()
     {

@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\hakatonGame\\HakatonGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|d:\\hakatongame\\hakatongame\\assets\\scripts\\scriptspanai\\levertrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptspanai\\levertrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|D:\\hakatonGame\\HakatonGame\\assets\\scripts\\sepguch\\catscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sepguch\\catscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|D:\\hakatonGame\\HakatonGame\\assets\\scripts\\scriptspanai\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptspanai\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|D:\\hakatonGame\\HakatonGame\\assets\\scripts\\scriptspanai\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253623-69EE-C97E-CCBB-8FD963BC4230}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptspanai\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hakatonGame\\HakatonGame\\assets\\textmesh pro\\examples \u0026 extras\\scripts\\tmp_textselector_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\textmesh pro\\examples \u0026 extras\\scripts\\tmp_textselector_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeverTrigger.cs",
+              "DocumentMoniker": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\ScriptsPanai\\LeverTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsPanai\\LeverTrigger.cs",
+              "ToolTip": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\ScriptsPanai\\LeverTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsPanai\\LeverTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:55:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "catscene.cs",
+              "DocumentMoniker": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\sepguch\\catscene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\sepguch\\catscene.cs",
+              "ToolTip": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\sepguch\\catscene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\sepguch\\catscene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:48:09.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\ScriptsPanai\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsPanai\\Player.cs",
+              "ToolTip": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\ScriptsPanai\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsPanai\\Player.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:49:24.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\ScriptsPanai\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsPanai\\CameraFollow.cs",
+              "ToolTip": "D:\\hakatonGame\\HakatonGame\\Assets\\Scripts\\ScriptsPanai\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsPanai\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:48:54.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TMP_TextSelector_B.cs",
+              "DocumentMoniker": "D:\\hakatonGame\\HakatonGame\\Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\TMP_TextSelector_B.cs",
+              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\TMP_TextSelector_B.cs",
+              "ToolTip": "D:\\hakatonGame\\HakatonGame\\Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\TMP_TextSelector_B.cs",
+              "RelativeToolTip": "Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\TMP_TextSelector_B.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAvwC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:40:43.604Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

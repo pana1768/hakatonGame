@@ -216,6 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 151317068}
   - component: {fileID: 151317067}
+  - component: {fileID: 151317069}
   m_Layer: 0
   m_Name: Skipper
   m_TagString: Untagged
@@ -235,8 +236,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db146864423a430459e1d73cfade46ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutsceneDuration: 20
+  cutsceneDuration: 60
   skipHint: {fileID: 2064389175}
+  sceneTransition: {fileID: 0}
 --- !u!4 &151317068
 Transform:
   m_ObjectHideFlags: 0
@@ -252,6 +254,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &151317069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151317066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fbff7dd529838439373ad20b09ac3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1462914853}
+  fadeDuration: 1
 --- !u!1 &212549385
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +808,7 @@ RectTransform:
   - {fileID: 321074072}
   - {fileID: 1606686226}
   - {fileID: 2064389178}
+  - {fileID: 1462914855}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -883,6 +900,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1462914852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1462914855}
+  - component: {fileID: 1462914854}
+  - component: {fileID: 1462914853}
+  m_Layer: 5
+  m_Name: FadeImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1462914853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462914852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1462914854
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462914852}
+  m_CullTransparentMesh: 1
+--- !u!224 &1462914855
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462914852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 885207211}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -375.8, y: -202.72}
+  m_SizeDelta: {x: -722.5221, y: -394.9008}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1537159476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,10 +1206,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4e2963df07f7464883c8d6a1e6fb6f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullText: "day 1.\n\n- - - \n\n\nearth broken, people are dead\n\nmy name is samuel,
-    im a last standing human in universe.\n\nif your heard me, give me a know\n\n\n-
-    - - "
+  fullText: "18.03.2135 \n\nThere was a successful launch of board 117x53 to search
+    for an Earth-type planet. \nAll sensors and systems are working properly. \nFurther
+    control is transferred to the AI system"
   typingSpeed: 0.1
+  fullText2: "18.05.2136 \n\nCommunication with the control center of board 117x53
+    was lost..."
+  fullText3: "25.08.2344 [117x53 EXP-0 1175493.log] \n\nA planet suitable for the
+    search conditions was found and the protocol for return to Earth was started."
+  fullText4: "25.08.2544 [117x53 EXP-0 1265432.log] \n\nLanding on planet Earth:\nOxygen
+    level - 0%.\nLife level - 0% \nRadiation level - 70%. \nEXP-0 protocol initiated."
   nextKey: 32
 --- !u!1 &1675852958
 GameObject:
@@ -1180,7 +1278,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5.2511663
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

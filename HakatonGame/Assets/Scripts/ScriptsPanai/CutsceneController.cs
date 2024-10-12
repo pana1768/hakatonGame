@@ -8,11 +8,14 @@ public class CutsceneController : MonoBehaviour
     public GameObject skipHint;  // Ссылка на объект подсказки
     private float timer;  // Таймер для отслеживания времени катсцены
     private bool isCutsceneSkipped = false;  // Флаг для отслеживания, была ли катсцена пропущена
+    public SceneTransition sceneTransition;
 
     void Start()
     {
         timer = cutsceneDuration;  // Инициализируем таймер
         skipHint.SetActive(false);  // Показываем подсказку
+        sceneTransition = FindObjectOfType<SceneTransition>();
+
     }
 
     void Update()
@@ -35,7 +38,7 @@ public class CutsceneController : MonoBehaviour
             {
                 TransitionToMainLevel();
             }
-            if(timer <= 15)
+            if(timer <= 50)
             {
                 skipHint.SetActive(true);
             }
@@ -45,6 +48,7 @@ public class CutsceneController : MonoBehaviour
     void TransitionToMainLevel()
     {
         // Загружаем основной уровень
-        SceneManager.LoadScene("MainScene");
+
+        sceneTransition.LoadScene("MainScene");
     }
 }

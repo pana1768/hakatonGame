@@ -9,7 +9,7 @@ public class DoorTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Переключение на Level2
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("lvl1-bunker");
         }
     }
 }

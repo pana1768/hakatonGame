@@ -1,11 +1,14 @@
 using UnityEngine;
 using TMPro;
 
-public class PuzzleDisplay : MonoBehaviour
+public class FirstTabletDisplay : MonoBehaviour
 {
     public GameObject puzzleCanvas;
     public TMP_Text puzzleText;
-    public string puzzleContent = "What is 2 + 2?";
+    public string puzzleContent = "The Big Dipper remained unchanged, with 7 stars bright and clearly visible.\r\n\t\t" +
+        "Orion's Belt shone especially bright today, with all 3 stars forming it clearly visible.\r\n\t\t" +
+        "In the Little Bear, 6 stars are unchanged, and Polaris also requires special attention.\r\n\t\t" +
+        "In the constellation of Cassiopeia 4 stars are clearly visible, Cephus is worth watching, it has been fading lately.";
     private bool isPaused = false;
     public GameObject hintText;
     private bool isPlayerNearTablet = false;  // Флаг рядом ли игрок с планшетом

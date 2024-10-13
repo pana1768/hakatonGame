@@ -1,13 +1,15 @@
 using UnityEngine;
 using TMPro;
 
-public class PuzzleDoorSecond : MonoBehaviour
+public class CezarPuzzle : MonoBehaviour
 {
-    public GameObject puzzlePanel;  // Панель UI с загадкой 
+    public GameObject puzzlePanel;  // Панель UI с загадкой
+    public TextMeshProUGUI puzzleText;  // Текст для загадки
     public TMP_InputField answerInput;  // Поле для ввода ответа
     public GameObject door;  // Объект двери
     public Collider2D doorCollider;  // Collider двери
-    public string correctAnswer = "7364";  // Правильный ответ
+    public string correctAnswer = "Alice";  // Правильный ответ
+    public string puzzleQuestion = "Who sent you on the trip?";  // Загадка
     public GameObject hintText;  // Подсказка "Нажмите F"
     private bool isPlayerNearTablet = false;  // Флаг рядом ли игрок с планшетом
     private bool isPuzzleActive = false;  // Флаг активности UI с загадкой
@@ -31,13 +33,14 @@ public class PuzzleDoorSecond : MonoBehaviour
         {
             ClosePuzzle();  // Закрываем окно и снимаем паузу
         }
-
+        
     }
 
     // Отображение UI загадки и пауза игры
     void ShowPuzzle()
     {
         puzzlePanel.SetActive(true);  // Активируем панель с загадкой
+        puzzleText.text = puzzleQuestion;  // Отображаем текст загадки
         answerInput.text = "";  // Очищаем поле для ответа
         answerInput.ActivateInputField();  // Активируем ввод
         isPuzzleActive = true;

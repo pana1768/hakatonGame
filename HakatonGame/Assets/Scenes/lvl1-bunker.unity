@@ -2953,7 +2953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzleCanvas: {fileID: 216659180}
   puzzleText: {fileID: 2107032159}
-  puzzleContent: What is 2 + 2?
+  puzzleContent: '[Alice] Left the latest development of humanity for you, however
+    it''s not so easy to get, head to the 2nd floor'
   hintText: {fileID: 1647366571}
   tableTrigger: {fileID: 93754990}
 --- !u!61 &93754992
@@ -5563,7 +5564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &214890725
 Transform:
   m_ObjectHideFlags: 0
@@ -5681,8 +5682,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.348, y: 4.937}
-  m_SizeDelta: {x: 1.7231, y: 0.8284}
+  m_AnchoredPosition: {x: -0.73, y: 4.8753}
+  m_SizeDelta: {x: 0.3836, y: 0.2877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &216822622
 GameObject:
@@ -8028,8 +8029,7 @@ MonoBehaviour:
   answerInput: {fileID: 752147261}
   door: {fileID: 110488750}
   doorCollider: {fileID: 110488753}
-  correctAnswer: Alice
-  puzzleQuestion: Who sent you on the trip?
+  correctAnswer: 7364
   hintText: {fileID: 2092926273}
 --- !u!1 &280431769
 GameObject:
@@ -9942,7 +9942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &344967260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10024,8 +10024,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 376, y: 211.4}
-  m_SizeDelta: {x: 752, y: 422.8}
+  m_AnchoredPosition: {x: 374.8573, y: 211.272}
+  m_SizeDelta: {x: 5, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &345552405
 GameObject:
@@ -12232,7 +12232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Who sent you on the trip?
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
   m_sharedMaterial: {fileID: -2446994675247756435, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
@@ -12259,8 +12259,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.07
-  m_fontSizeBase: 0.07
+  m_fontSize: 0.02
+  m_fontSizeBase: 0.02
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12295,7 +12295,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.010242283, y: -0.018678188, z: 0.018121034, w: -0.037734985}
+  m_margin: {x: 0.3014626, y: -0.02210331, z: -0.11729598, w: 0.06159973}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -13076,8 +13076,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.21169995, y: -0.2513}
-  m_SizeDelta: {x: 46.1183, y: 9.7849}
+  m_AnchoredPosition: {x: 0.006, y: -0.159}
+  m_SizeDelta: {x: 35.294, y: 7.9902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470848950
 MonoBehaviour:
@@ -17324,7 +17324,7 @@ GameObject:
   - component: {fileID: 650613967}
   - component: {fileID: 650613966}
   - component: {fileID: 650613965}
-  - component: {fileID: 650613964}
+  - component: {fileID: 650613968}
   m_Layer: 0
   m_Name: Tablet
   m_TagString: Untagged
@@ -17332,26 +17332,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &650613964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650613963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9967aa9ae511f454cb1c4d6a7c38707f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzlePanel: {fileID: 2065216890}
-  puzzleText: {fileID: 444971631}
-  answerInput: {fileID: 470848950}
-  door: {fileID: 1240564109}
-  doorCollider: {fileID: 1240564112}
-  correctAnswer: Alice
-  puzzleQuestion: Who sent you on the trip?
-  hintText: {fileID: 834170086}
 --- !u!61 &650613965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17464,6 +17444,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &650613968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650613963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5232c789c20b094caeb119a68db24f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzlePanel: {fileID: 2065216890}
+  puzzleText: {fileID: 444971631}
+  answerInput: {fileID: 470848950}
+  door: {fileID: 1240564109}
+  doorCollider: {fileID: 1240564112}
+  hintText: {fileID: 1431026546}
 --- !u!1 &657665128
 GameObject:
   m_ObjectHideFlags: 0
@@ -27498,6 +27496,140 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1072713321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072713322}
+  - component: {fileID: 1072713324}
+  - component: {fileID: 1072713323}
+  m_Layer: 5
+  m_Name: PuzzleText (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1072713322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072713321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1555529609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.02, y: -0.0121}
+  m_SizeDelta: {x: 0.8362, y: 0.5704}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1072713323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072713321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: YRLG?
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
+  m_sharedMaterial: {fileID: -2446994675247756435, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 0.09
+  m_fontSizeBase: 0.09
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0.24906975, y: 0.22274566, z: 0.24501976, w: 0.24704456}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1072713324
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072713321}
+  m_CullTransparentMesh: 1
 --- !u!1 &1078714284
 GameObject:
   m_ObjectHideFlags: 0
@@ -27616,7 +27748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -375.097, y: -206.357}
+  m_AnchoredPosition: {x: -340.9, y: -206.357}
   m_SizeDelta: {x: 0.3949, y: 0.1306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080768250
@@ -27639,7 +27771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Who sent you on the trip?
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
   m_sharedMaterial: {fileID: -2446994675247756435, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
@@ -27702,7 +27834,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.04433596, w: -0.031921864}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -27869,12 +28001,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1080825723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f928379073211eb49b41a2fe98abab7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7186a76ae062e8c4590f304771427a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleCanvas: {fileID: 344967259}
   puzzleText: {fileID: 1080768250}
-  puzzleContent: What is 2 + 2?
+  puzzleContent: 'The Big Dipper remained unchanged, with 7 stars bright and clearly
+    visible.
+
+    Orion''s Belt shone especially bright today, with all 3 stars
+    forming it clearly visible.
+
+    In the Little Bear, 6 stars are unchanged,
+    and Polaris also requires special attention.
+
+    In the constellation of Cassiopeia
+    4 stars are clearly visible, Cephus is worth watching, it has been fading lately.'
   hintText: {fileID: 1878658300}
   tableTrigger: {fileID: 1080825728}
 --- !u!1 &1094309169
@@ -32639,8 +32781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.225, y: -0.0553}
-  m_SizeDelta: {x: -0.5337, y: -0.4583}
+  m_AnchoredPosition: {x: 0, y: -0.000000029802322}
+  m_SizeDelta: {x: 0, y: -0.000000059605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309286781
 MonoBehaviour:
@@ -32764,6 +32906,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1313792210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1313792211}
+  - component: {fileID: 1313792213}
+  - component: {fileID: 1313792212}
+  m_Layer: 5
+  m_Name: PuzzlePanel (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1313792211
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313792210}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1555529609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000000014901161, y: -0.0044994056}
+  m_SizeDelta: {x: 0, y: -0.0089989}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1313792212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313792210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.90943396, g: 0.8562407, b: 0.8562407, a: 0.8627451}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 450539064, guid: a00cc772e9c5ef045ad9721ef27a8b08, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1313792213
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313792210}
+  m_CullTransparentMesh: 1
 --- !u!1 &1313916887
 GameObject:
   m_ObjectHideFlags: 0
@@ -37481,7 +37698,7 @@ GameObject:
   - component: {fileID: 1496864957}
   - component: {fileID: 1496864960}
   - component: {fileID: 1496864959}
-  - component: {fileID: 1496864958}
+  - component: {fileID: 1496864961}
   m_Layer: 0
   m_Name: electronics1_9 (1)
   m_TagString: Untagged
@@ -37504,25 +37721,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1255490699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1496864958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496864956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be7ac1bf737ac8e4e8cfa18b46789c39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzlePanel: {fileID: 1555529605}
-  answerInput: {fileID: 2047361560}
-  door: {fileID: 1885159074}
-  doorCollider: {fileID: 1885159075}
-  correctAnswer: Alice
-  puzzleQuestion: Who sent you on the trip?
-  hintText: {fileID: 862138336}
 --- !u!61 &1496864959
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37620,6 +37818,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1496864961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496864956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bae3ac92ba25af4f9e99059c9b3a953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzlePanel: {fileID: 1555529605}
+  puzzleText: {fileID: 1080768250}
+  answerInput: {fileID: 2047361560}
+  door: {fileID: 1885159074}
+  doorCollider: {fileID: 1885159075}
+  correctAnswer: VOID
+  puzzleQuestion: YRLG?
+  hintText: {fileID: 862138336}
 --- !u!1 &1497005776
 GameObject:
   m_ObjectHideFlags: 0
@@ -38878,13 +39096,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1072713322}
+  - {fileID: 1313792211}
   - {fileID: 2047361559}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.063, y: 3.569}
-  m_SizeDelta: {x: 752, y: 422.8}
+  m_AnchoredPosition: {x: -0.059, y: 3.684}
+  m_SizeDelta: {x: 0.3456, y: 0.3306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1561580168
 GameObject:
@@ -41729,7 +41949,7 @@ Transform:
   m_GameObject: {fileID: 1652347186}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.547, y: 4.258, z: 0}
+  m_LocalPosition: {x: 0.576, y: 4.747, z: 0}
   m_LocalScale: {x: 0.7131314, y: 0.7046, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43768,7 +43988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzleCanvas: {fileID: 458945828}
   puzzleText: {fileID: 2063822487}
-  puzzleContent: What is 2 + 2?
+  puzzleContent: I shift letters and change their place, Moving forward in a steady
+    pace. Three steps ahead, that's how it goes, What number am I, do you suppose?
   hintText: {fileID: 1761227630}
   tableTrigger: {fileID: 1744370808}
 --- !u!114 &1744370808
@@ -49969,7 +50190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.003, y: -0.297}
   m_SizeDelta: {x: 99.517, y: 24.5892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2047361560
@@ -50840,8 +51061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.1326, y: 4.5258}
-  m_SizeDelta: {x: 1.0038, y: 0.7511}
+  m_AnchoredPosition: {x: -0.044, y: 4.542}
+  m_SizeDelta: {x: 0.2587, y: 0.1959}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2068856710
 GameObject:
@@ -51775,7 +51996,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.015, y: 0}
   m_SizeDelta: {x: 2.4963, y: 0.2891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107032159
@@ -51798,7 +52019,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Who sent you on the trip?
+  m_text: '[Alice]
+
+    Left the latest development of humanity for you, however
+    it''s not so easy to get, head to the 2nd floor'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
   m_sharedMaterial: {fileID: -2446994675247756435, guid: a43bf4d5a96138f48af08e9325658a4c, type: 2}
@@ -51825,8 +52049,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.1
-  m_fontSizeBase: 0.1
+  m_fontSize: 0.02
+  m_fontSizeBase: 0.02
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -51861,7 +52085,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.54919404, y: -0.13729858, z: 0.48512143, w: -0.16933489}
+  m_margin: {x: 1.08746, y: 0.0396657, z: 1.1118696, w: 0.027291775}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -52306,6 +52530,10 @@ PrefabInstance:
     - target: {fileID: 3060328665641304420, guid: 14101ea863273274cb929fbf8bf6a344, type: 3}
       propertyPath: m_Name
       value: HintLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 3060328665641304420, guid: 14101ea863273274cb929fbf8bf6a344, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7307176543728511367, guid: 14101ea863273274cb929fbf8bf6a344, type: 3}
       propertyPath: m_Pivot.x

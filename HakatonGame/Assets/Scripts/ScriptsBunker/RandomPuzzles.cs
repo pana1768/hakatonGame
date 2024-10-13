@@ -1,16 +1,42 @@
 using UnityEngine;
 using TMPro;
 
-public class PuzzleDoorSecond : MonoBehaviour
+public class RandomPuzzles : MonoBehaviour
 {
-    public GameObject puzzlePanel;  // Панель UI с загадкой 
+    public GameObject puzzlePanel;  // Панель UI с загадкой
+    public TextMeshProUGUI puzzleText;  // Текст для загадки
     public TMP_InputField answerInput;  // Поле для ввода ответа
     public GameObject door;  // Объект двери
     public Collider2D doorCollider;  // Collider двери
-    public string correctAnswer = "7364";  // Правильный ответ
     public GameObject hintText;  // Подсказка "Нажмите F"
+
     private bool isPlayerNearTablet = false;  // Флаг рядом ли игрок с планшетом
     private bool isPuzzleActive = false;  // Флаг активности UI с загадкой
+
+    private string[] puzzles = new string[]
+    {
+        "You see me at night, but can't touch me at all. I sparkle so bright, then vanish by fall. What am I?",
+        "I'm big but hard to see, Always orbiting the sun, that's me. What am I?",
+        "WI'm a nightly friend, round and bright, Reflecting sunlight with soft, pale light. Who am I?",
+        "I'm fiery and bright, a ball of heat, Shining my rays down on your street. What am I?",
+        "With a tail so long, I light up the sky, A fleeting glance before I say goodbye. What am I?"
+    };  // Массив загадок
+
+    private string[] correctAnswers = new string[]
+    {
+        "Stars",
+        "Planet",
+        "Moon",
+        "Sun",
+        "Comet"
+    };  // Массив правильных ответов
+
+    private int currentPuzzleIndex;  // Индекс текущей загадки
+
+    void Start()
+    {
+        SelectRandomPuzzle();  // Выбираем случайную загадку при старте
+    }
 
     void Update()
     {
@@ -31,13 +57,13 @@ public class PuzzleDoorSecond : MonoBehaviour
         {
             ClosePuzzle();  // Закрываем окно и снимаем паузу
         }
-
     }
 
     // Отображение UI загадки и пауза игры
     void ShowPuzzle()
     {
         puzzlePanel.SetActive(true);  // Активируем панель с загадкой
+        puzzleText.text = puzzles[currentPuzzleIndex];  // Отображаем случайную загадку
         answerInput.text = "";  // Очищаем поле для ответа
         answerInput.ActivateInputField();  // Активируем ввод
         isPuzzleActive = true;
@@ -50,7 +76,7 @@ public class PuzzleDoorSecond : MonoBehaviour
     {
         string playerAnswer = answerInput.text;
 
-        if (playerAnswer.ToLower() == correctAnswer.ToLower())
+        if (playerAnswer.ToLower() == correctAnswers[currentPuzzleIndex].ToLower())
         {
             OpenDoor();  // Открываем дверь, если ответ правильный
         }
@@ -94,5 +120,11 @@ public class PuzzleDoorSecond : MonoBehaviour
             isPlayerNearTablet = false;  // Игрок покинул зону планшета
             hintText.SetActive(false);  // Скрываем подсказку "Нажмите F"
         }
+    }
+
+    // Выбор случайной загадки
+    void SelectRandomPuzzle()
+    {
+        currentPuzzleIndex = Random.Range(0, puzzles.Length);  // Выбираем случайный индекс загадки
     }
 }

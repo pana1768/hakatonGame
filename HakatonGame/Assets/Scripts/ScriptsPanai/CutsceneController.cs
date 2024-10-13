@@ -49,6 +49,6 @@ public class CutsceneController : MonoBehaviour
     {
         // Загружаем основной уровень
 
-        sceneTransition.LoadScene("MainScene");
+        sceneTransition.LoadScene("FirstLevel");
     }
 }
